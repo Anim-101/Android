@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Calculator</string>
+    <string name="memClear">MC</string>
+    <string name="memRestore">MR</string>
+    <string name="memAdd">M+</string>
+    <string name="memRemove">M-</string>
+    <string name="reCall">RCL</string>
+    <string name="square">x<sup>2</sup></string>
+    <string name="cube">x<sup>3</sup></string>
+    <string name="power">^</string>
+    <string name="allClear">AC</string>
+    <string name="delete">Del</string>
+    <string name="root">√</string>
+    <string name="percent">%</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="multiply">*</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="divide">/</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="plus">+</string>
+    <string name="history"><u><b><i>History :</i></b></u></string>
+    <string name="go">Go</string>
+	<color name="col">#caced1</color>
+	<color name="pressedCol">#9ca0a3</color>
+	<color name="backCol">#4f54bc</color>
+	<color name="textCol">#192630</color>
+	<string name="goBack">Go Back</string>
+</resources>

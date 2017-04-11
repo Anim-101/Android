@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background ="@color/backCol" 
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#192630"
+        android:id="@+id/display" />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_memClear"
+            android:text="@string/memClear"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+          	android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_memRestore"
+            android:text="@string/memRestore"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_memAdd"
+            android:text="@string/memAdd"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+           	android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_memRemove"
+            android:text="@string/memRemove"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_allClear"
+            android:text="@string/allClear"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_root"
+            android:text="@string/root"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_percent"
+            android:text="@string/percent"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_delete"
+            android:text="@string/delete"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_reCall"
+            android:text="@string/reCall"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_square"
+            android:text="@string/square"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_cube"
+            android:text="@string/cube"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_power"
+            android:text="@string/power"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+    
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_seven"
+            android:text="@string/seven"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_eight"
+            android:text="@string/eight"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_nine"
+            android:text="@string/nine"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_multiply"
+            android:text="@string/multiply"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_four"
+            android:text="@string/four"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_five"
+            android:text="@string/five"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_six"
+            android:text="@string/six"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_divide"
+            android:text="@string/divide"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+      
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_one"
+            android:text="@string/one"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_two"
+            android:text="@string/two"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_three"
+            android:text="@string/three"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_minus"
+            android:text="@string/minus"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+    
+     
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_zero"
+            android:text="@string/zero"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_dot"
+            android:text="@string/dot"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_equal"
+            android:text="@string/equal"
+            android:background="@drawable/clicked"/>
+        
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/btn_plus"
+            android:text="@string/plus"
+            android:background="@drawable/clicked"/>
+        
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/clicked"
+            android:text="@string/go" />
+        
+    </LinearLayout>
+
+</LinearLayout>
