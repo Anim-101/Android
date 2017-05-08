@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Start Profile Manager of Stop it.</string>
+    <string name="app_name">Profile Manager</string>
+     <string name="Start">Start Profile Manager</string>
+     <string name="Stop">Stop Profile Manager</string>
+
+</resources>
